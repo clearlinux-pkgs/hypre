@@ -1,0 +1,12 @@
+pushd ../build-openmpi/src
+module load openmpi
+export OMPI_MCA_rmaps_base_oversubscribe=1
+make check
+module unload openmpi
+popd
+pushd ../buildavx2/src
+make check
+popd
+pushd src
+make check
+popd

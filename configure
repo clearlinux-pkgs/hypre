@@ -1,0 +1,6 @@
+--prefix=%{buildroot}/usr --libdir=%{buildroot}/usr/lib64 --includedir=%{buildroot}/usr/include
+--enable-shared --enable-fortran
+--without-MPI --with-openmp 
+--with-blas-libs=blas --with-blas-lib-dirs=/usr/lib64
+--with-lapack-libs=lapack --with-lapack-lib-dirs=/usr/lib64
+LDFLAGS="$LDFLAGS -fopenmp" CFLAGS="$CFLAGS -fopenmp" FFLAGS="$FFLAGS -fopenmp"

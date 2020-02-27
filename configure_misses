@@ -1,0 +1,9 @@
+Configure miss: xlf_r
+Configure miss: ifort
+Configure miss: dummy main to link with Fortran libraries
+Configure miss: xlf_r
+Configure miss: ifort
+Configure miss: dummy main to link with Fortran libraries
+Configure miss: mpicc option to accept ISO C89
+Configure miss: dummy main to link with Fortran libraries
+Configure miss: whether MPI_Comm_f2c is a macro
